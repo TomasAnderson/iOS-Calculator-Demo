@@ -12,6 +12,7 @@
 		536E9B101DDBFFC6009399B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 536E9B0E1DDBFFC6009399B7 /* Main.storyboard */; };
 		536E9B121DDBFFC6009399B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 536E9B111DDBFFC6009399B7 /* Assets.xcassets */; };
 		536E9B151DDBFFC6009399B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 536E9B131DDBFFC6009399B7 /* LaunchScreen.storyboard */; };
+		538F377D1DE8428A00309536 /* CalcularirBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538F377C1DE8428A00309536 /* CalcularirBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		536E9B111DDBFFC6009399B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		536E9B141DDBFFC6009399B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		536E9B161DDBFFC6009399B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		538F377C1DE8428A00309536 /* CalcularirBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcularirBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		536E9AFE1DDBFFC5009399B7 = {
 			isa = PBXGroup;
 			children = (
+				538F377C1DE8428A00309536 /* CalcularirBrain.swift */,
 				536E9B091DDBFFC5009399B7 /* Calculator */,
 				536E9B081DDBFFC5009399B7 /* Products */,
 			);
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				538F377D1DE8428A00309536 /* CalcularirBrain.swift in Sources */,
 				536E9B0D1DDBFFC5009399B7 /* ViewController.swift in Sources */,
 				536E9B0B1DDBFFC5009399B7 /* AppDelegate.swift in Sources */,
 			);
@@ -310,6 +314,7 @@
 				536E9B1B1DDBFFC6009399B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
